@@ -33,7 +33,7 @@ void readFromFile()
   std::vector<int> firstList;
   std::vector<int> secondList;
   
-  myF.open("text.txt");
+  myF.open("input.txt");
   if(!myF)
   {
     std::cout << "Cannot open file" << std::endl;
